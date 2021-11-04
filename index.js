@@ -1,8 +1,8 @@
 const canvas = document.getElementById('matrix');
 const context = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.outerWidth;
+canvas.height = window.outerHeight;
 
 const ideograms = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
